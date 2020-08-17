@@ -18,10 +18,11 @@
 
 .navbar-position {
     height: 100%;
+    padding-top: 3vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
 }
 
 .logo {
@@ -63,7 +64,7 @@
   justify-content: center;
 }
 
-h1, h2, h3 {
+h1, h2 {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
 }
@@ -78,8 +79,10 @@ h2 {
 }
 
 h3 {
+  font-family: 'Merriweather', serif;
   font-size: 2rem;
-  margin-top: 5vh;
+  margin: 10vh 0;
+  text-align: center;
 }
 
 p {
@@ -88,15 +91,37 @@ p {
   line-height: 150%;
 }
 
+.byline {
+  width: 60%;
+  font-size: 1rem;
+  font-family: 'Merriweather', serif;
+  text-align: right;
+  font-style: italic;
+  font-weight: 400;
+}
+
+figcaption {
+  font-size: small;
+  font-family: 'Quando', serif;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 0.3rem;
+  padding: 4px 0;
+  margin-top: 1.5vh;
+  background: lightgrey;
+}
+
 .section-contact {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: baseline;
-  margin-bottom: 20vh;
+  margin: 10vh 0 20vh 0;
 }
 
 .contact-email {
+  font-size: 2rem;
   font-family: 'Merriweather', serif;
 }
 
@@ -104,4 +129,58 @@ p {
   background: hotpink;
   padding: 0.4rem;
   border-radius: 0.5rem;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.image_box {
+  padding: 3px;
+  margin: 1vh 0.5vw;
+  border: 1px dotted grey;
+  border-radius: 0.3rem;
+}
+
+.image_box img {
+  display: block;
+  max-width: 20vw;
+  max-height: 40vh;
+  height: auto;
+  width: auto;
+  border-radius: 0.3rem;
+}
+
+.logo_box {
+  margin: 2vh 1vw;
+  align-items: baseline;
+}
+
+.logo_box img {
+  display: block;
+  max-width: 15vw;
+  max-height: 20vh;
+  height: auto;
+  width: auto;
+}
+
+.partner-logo {
+  color: grey;
+  font-size: 1.45rem;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+}
+
+.center {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: 10vh;
+  background: hotpink;
 }

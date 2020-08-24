@@ -219,6 +219,7 @@ img {
   display: block;
   max-width: 15vw;
   min-width: 150px;
+  flex-basis: 150px;
   height: auto;
   width: auto;
 }

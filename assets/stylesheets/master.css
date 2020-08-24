@@ -212,7 +212,6 @@ img {
 
 .logo_box {
   margin: 2vh 2vw;
-  align-items: baseline;
 }
 
 .logo_box img {
@@ -222,6 +221,7 @@ img {
   flex-basis: 150px;
   height: auto;
   width: auto;
+  margin: 2vw;
 }
 
 .section-contact {
